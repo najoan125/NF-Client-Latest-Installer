@@ -1,0 +1,162 @@
+NF Client를 이용해 주셔서 감사합니다. 
+아래 동의해야 하는 내용은 꼭! 읽어주시기 바랍니다.
+
+────────동의해야 하는 내용───────
+1.본 설치기는 파일 변조 방지를 위해 2차 배포가 금지됩니다.
+
+2.본 설치기는 예고없이 삭제되거나 변경될 수 있습니다.
+
+3.본 설치기의 파일 링크는 예고없이 삭제되거나 변경될 수 있습니다.
+
+4.본 설치기 이용시, NF Client 에 수동으로 설치한 모드는 전부 삭제됩니다.
+
+5.본 설치기는 언제든지 업데이트가 될 수 있습니다. 
+  아래 사이트에서 새로운 버전이 나왔는지 확인해주세요.
+  (이 설치기 버전은 1.0.0 입니다)
+  설치기 다운로드 주소: https://www.nfclient.kro.kr/download
+  
+6.이 클라이언트는 모든 컴퓨터에서 안정적으로 작동하지 않으며, 몇몇 컴퓨터에서 에러가 발생할 수 있습니다.
+
+7.이 클라이언트의 최소사양보다 낮은 사양의 컴퓨터로 플레이 시, 모든 책임은 개인에게 있습니다(최소사양은 공식 사이트에서 확인해주세요)
+  NF Client Official: https://www.nfclient.kro.kr
+  
+8.본 설치기 이용 시, 아래의 라이선스에 동의하는 것으로 간주됩니다.
+────────────────────────
+
+───────패치 노트 및 변경사항───────
+1.0.0: NF Client (Fabric) 1.19.3 출시!
+────────────────────────
+
+─────── 모드 출처 ───────
+Better Ping Display: https://www.curseforge.com/minecraft/mc-mods/better-ping-display
+Boosted Brightness: https://www.curseforge.com/minecraft/mc-mods/boosted-brightness
+Client Side Noteblocks: https://www.curseforge.com/minecraft/mc-mods/client-side-noteblocks
+Clumps: https://www.curseforge.com/minecraft/mc-mods/clumps/files
+Dynamic FPS: https://www.curseforge.com/minecraft/mc-mods/dynamic-fps
+Entity Culling: https://www.curseforge.com/minecraft/mc-mods/entityculling
+Fabric API: https://www.curseforge.com/minecraft/mc-mods/fabric-api
+FabricSkyboxes: https://modrinth.com/mod/fabricskyboxes
+FerriteCore: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric
+Iris Shaders: https://www.curseforge.com/minecraft/mc-mods/irisshaders
+Korean Chat Patch(자작): https://www.curseforge.com/minecraft/mc-mods/korean-patch-fabric
+Krypton: https://www.curseforge.com/minecraft/mc-mods/krypton
+LazyDFU: https://www.curseforge.com/minecraft/mc-mods/lazydfu
+Lithium: https://www.curseforge.com/minecraft/mc-mods/lithium
+Mod Menu: https://www.curseforge.com/minecraft/mc-mods/modmenu
+Phosphor: https://www.curseforge.com/minecraft/mc-mods/phosphor
+Reese's Sodium Options: https://modrinth.com/mod/reeses-sodium-options
+Smooth Boot: https://www.curseforge.com/minecraft/mc-mods/smooth-boot
+Sodium Extra: https://modrinth.com/mod/sodium-extra
+Sodium: https://modrinth.com/mod/sodium
+Windowed Fullscreen: https://www.curseforge.com/minecraft/mc-mods/windowed-fullscreen
+────────────────────────
+
+─────── 나죠안의 커스텀 팩 라이선스 ───────
+Neo둥근모 원본 글꼴(https://dalgona.github.io/neodgm/)은 IT문화원 원장 김중태 님이 퍼블릭 도메인으로 배포한 둥근모꼴 비트맵 파일(http://ith.kr/about/font.html)을 기반으로 Dalgona님이 제작하였으며, 원본을 따라 SIL 오픈 소스 라이선스(https://scripts.sil.org/OFL)로 배포합니다.
+
+둥근모 리소스팩 홈페이지: https://eatch.dev/dgm/
+
+본 페이지에는 다음과 같은 npm 패키지를 직·간접적으로 사용했으며, 각각 다음 라이선스에 따라 배포됩니다.
+
+Copyright (c) 2017, Dalgona. ,
+with Reserved Font Name NeoDunggeunmo.
+Copyright (c) 2019, EatChangmyeong (dlaud5379@naver.com),
+with Reserved Font Name McDunggeunmo.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
