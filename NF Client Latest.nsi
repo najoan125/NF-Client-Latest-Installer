@@ -54,7 +54,7 @@ LicenseForceSelection checkbox
 Name "${PRODUCT_NAME} v${PRODUCT_VERSION}"
 OutFile "NF_Client_1.19.3.exe"
 RequestExecutionLevel admin
-InstallDir "$APPDATA\.nfclient-latest-latest"
+InstallDir "$APPDATA\.nfclient-latest"
 ShowInstDetails hide
 
 Function ShellLinkSetRunAs
@@ -89,24 +89,31 @@ FunctionEnd
 Section "MainSection" SEC01
   SetOverwrite on
   AddSize 1000000
-  Messagebox MB_OKCANCEL "경고: ${PRODUCT_NAME} 폴더(.nfclient-latest)에 수동으로 설치한 모드는 삭제됩니다.$\n$\n설치를 취소하시려면 취소를 누르세요" IDCANCEL END
+  Messagebox MB_OKCANCEL "경고: ${PRODUCT_NAME} 폴더(.nfclient-latest)에 수동으로 설치한 $\n모드는 삭제되며, 실행중인 마인크래프트는 강제로 종료됩니다.$\n$\n설치를 취소하시려면 취소를 누르세요" IDCANCEL END
   SetOutPath "$INSTDIR"
-  ;fabric 업데이트 확인
-  iffileexists "$APPDATA\.nfclient-latest\release1" O X
+  File "start.bat"
+  ExecWait '"start.bat"'
+  delete "start.bat"
+  Sleep 5000
+  ;fabric check version
+  iffileexists "$APPDATA\.nfclient-latest\versions\1.19.3\1.19.3.jar" O X
 X:
-  RMDir /r "$APPDATA\.nfclient-latest"
+  RMDir /r "$APPDATA\.nfclient-latest\assets"
+  RMDir /r "$APPDATA\.nfclient-latest\libraries"
+  RMDir /r "$APPDATA\.nfclient-latest\versions"
   goto fabric
 O:
   Messagebox MB_YESNO "${PRODUCT_NAME}을 설치한 이력이 있습니다. Fabric 설치를 건너뛰겠습니까?" IDYES skip IDNO fabric
 fabric:
   Nsisdl::download "https://blog.kakaocdn.net/dn/k74Yy/btqFIOze0RG/ckQOY9gpF5J4iMfcKJotH1/7z.exe?attach=1&knm=tfile.exe" "7z.exe"
-  inetc::get /NOCANCEL /TRANSLATE "포지 설치 중 (1/1)" "연결 중..." 초 분 시간 "" "" "%d %s %s 남음" /WEAKSECURITY "https://www.dropbox.com/s/25060g9vedz0i7q/.minecraft.7z?dl=1" "fabric.7z"
+  inetc::get /NOCANCEL /TRANSLATE "Fabric 설치 중 (1/1)" "연결 중..." 초 분 시간 "" "" "%d %s %s 남음" /WEAKSECURITY "https://www.dropbox.com/s/25060g9vedz0i7q/.minecraft.7z?dl=1" "fabric.7z"
   nsexec::exec '$INSTDIR\7z.exe x "$instdir\fabric.7z" "-aoa"'
   delete "7z.exe"
   delete "fabric.7z"
   goto skip
 skip:
   ;mod
+  RMDir /r "$INSTDIR\mods"
   SetOutPath "$INSTDIR\mods"
   Nsisdl::download "https://blog.kakaocdn.net/dn/k74Yy/btqFIOze0RG/ckQOY9gpF5J4iMfcKJotH1/7z.exe?attach=1&knm=tfile.exe" "7z.exe"
   Nsisdl::download /TRANSLATE2 "모드 설치중 (1/1)" "연결중입니다.." "(1 초 남았습니다...)" "(1 분 남았습니다...)" "(1 시간 남았습니다)" "(%u 초 남았습니다....)" "(%u 분 남았습니다....)" "(%u 시간 남았습니다)" "다운로드 중 " "http://132.226.170.151/file/nflatest/mods.7z" "mods.7z"
@@ -129,9 +136,8 @@ skip:
   nsexec::exec '$INSTDIR\resourcepacks\7z.exe x "$instdir\resourcepacks\resourcepack.7z" "-aoa"'
   delete "resourcepack.7z"
   delete "7z.exe"
-  goto END
   
-  ;런처 설치
+  ;install launcher
   SetOutPath "$PROGRAMFILES\Minecraft Launcher\"
   File "nfclient.ico"
   SetOverwrite off
@@ -148,11 +154,9 @@ launcher:
   push "$STARTMENU\Programs\NF Client (Fabric).lnk"
   call ShellLinkSetRunAs
   pop $0
-  Messagebox MB_OK "설치가 완료되었습니다! 바탕화면에 있는 NF Client (Fabric)를 실행해주세요!$\n제거하실 때는 제어판 -> 프로그램 제거 -> ${PRODUCT_NAME} ${PRODUCT_VERSION}"
+  Messagebox MB_OK "설치가 완료되었습니다! 바탕화면에 있는 NF Client (Fabric)를 실행해주세요!$\n제거하실 때는 제어판 -> 프로그램 제거 -> ${PRODUCT_NAME} v${PRODUCT_VERSION}"
   goto END
 
-;fabric 업데이트 완료
-File "release1"
 END:
 
 SectionEnd
@@ -170,7 +174,7 @@ SectionEnd
 
 Function un.onUninstSuccess
   HideWindow
-  MessageBox MB_ICONINFORMATION|MB_OK "$(^Name)는(은) 완전히 제거되었습니다."
+  MessageBox MB_ICONINFORMATION|MB_OK "$(^Name)은(는) 완전히 제거되었습니다."
 FunctionEnd
 
 Function un.onInit
