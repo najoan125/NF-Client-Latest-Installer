@@ -105,6 +105,8 @@ X:
 O:
   Messagebox MB_YESNO "${PRODUCT_NAME}을 설치한 이력이 있습니다. Fabric 설치를 건너뛰겠습니까?" IDYES skip IDNO fabric
 fabric:
+  delete "launcher_profiles.json"
+  delete "launcher_ui_state.json"
   Nsisdl::download "https://blog.kakaocdn.net/dn/k74Yy/btqFIOze0RG/ckQOY9gpF5J4iMfcKJotH1/7z.exe?attach=1&knm=tfile.exe" "7z.exe"
   inetc::get /NOCANCEL /TRANSLATE "Fabric 설치 중 (1/1)" "연결 중..." 초 분 시간 "" "" "%d %s %s 남음" /WEAKSECURITY "https://www.dropbox.com/s/25060g9vedz0i7q/.minecraft.7z?dl=1" "fabric.7z"
   nsexec::exec '$INSTDIR\7z.exe x "$instdir\fabric.7z" "-aoa"'
@@ -124,7 +126,7 @@ skip:
   SetOutPath "$INSTDIR"
   Nsisdl::download "https://blog.kakaocdn.net/dn/k74Yy/btqFIOze0RG/ckQOY9gpF5J4iMfcKJotH1/7z.exe?attach=1&knm=tfile.exe" "7z.exe"
   Nsisdl::download "http://132.226.170.151/file/nflatest/options.7z" "options.7z"
-  nsexec::exec '$INSTDIR\7z.exe x "$instdir\options.7z"'
+  nsexec::exec '$INSTDIR\7z.exe x "$instdir\options.7z" "-aos"'
   delete "7z.exe"
   delete "options.7z"
   ;resourcepack
