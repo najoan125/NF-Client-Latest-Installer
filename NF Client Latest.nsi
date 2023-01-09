@@ -2,7 +2,7 @@
 
 ; HM NIS Edit Wizard helper defines
 !define PRODUCT_NAME "NF Client (Fabric) 1.19.3"
-!define PRODUCT_VERSION "1.1.0"
+!define PRODUCT_VERSION "1.1.1"
 !define PRODUCT_PUBLISHER "NF Client"
 !define PRODUCT_WEB_SITE "https://www.nfclient.kro.kr"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
@@ -124,9 +124,14 @@ skip:
   delete "mods.7z"
   ;options
   SetOutPath "$INSTDIR"
+  SetOverwrite off
+  File "options\launcher_profiles.json"
+  File "options\launcher_ui_state.json"
+  File "options\options.txt"
+  SetOutPath "$INSTDIR\config"
   Nsisdl::download "https://blog.kakaocdn.net/dn/k74Yy/btqFIOze0RG/ckQOY9gpF5J4iMfcKJotH1/7z.exe?attach=1&knm=tfile.exe" "7z.exe"
-  Nsisdl::download "http://132.226.170.151/file/nflatest/options.7z" "options.7z"
-  nsexec::exec '$INSTDIR\7z.exe x "$instdir\options.7z" "-aos"'
+  Nsisdl::download "http://132.226.170.151/file/nflatest/config.7z" "options.7z"
+  nsexec::exec '$INSTDIR\config\7z.exe x "$instdir\config\options.7z" "-aos"'
   delete "7z.exe"
   delete "options.7z"
   ;resourcepack
