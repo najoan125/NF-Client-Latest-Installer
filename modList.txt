@@ -1,0 +1,29 @@
+betterpingdisplay
+boostedbrightness
+clumps
+cmdkeybind
+cullleaves
+dynamicfps
+entityculling
+extra thicc packets
+fabric language kotlin
+fabricskyboxes
+fastload
+ferritecore
+iris
+koreanpatch
+krypton
+lazydfu
+lithuim
+modmenu
+phosphor
+qolfixes
+resses sodium options
+replaymod
+smoothboot
+sodium extra
+sodium
+viafabric
+windowedFullscreen
+yetAnotherConfigLib
+Zoomify
