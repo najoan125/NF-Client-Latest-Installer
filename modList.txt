@@ -2,7 +2,7 @@ betterpingdisplay
 boostedbrightness
 clumps
 cmdkeybind
-cullleaves
+-cullleaves
 dynamicfps
 entityculling
 extra thicc packets

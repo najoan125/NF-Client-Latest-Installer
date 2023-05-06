@@ -2,7 +2,7 @@
 
 ; HM NIS Edit Wizard helper defines
 !define PRODUCT_NAME "NF Client (Fabric) 1.19.4"
-!define PRODUCT_VERSION "1.1.4"
+!define PRODUCT_VERSION "1.1.5"
 !define PRODUCT_PUBLISHER "NF Client"
 !define PRODUCT_WEB_SITE "https://www.nfclient.kro.kr"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
@@ -96,7 +96,7 @@ Section "MainSection" SEC01
   delete "start.bat"
   Sleep 5000
   ;fabric check version
-  iffileexists "$APPDATA\.nfclient-latest\versions\1.19.4\1.19.4.jar" O X
+  iffileexists "$APPDATA\.nfclient-latest\versions\fabric-loader-0.14.19-1.19.4\fabric-loader-0.14.19-1.19.4.jar" O X
 X:
   RMDir /r "$APPDATA\.nfclient-latest\assets"
   RMDir /r "$APPDATA\.nfclient-latest\libraries"
@@ -150,7 +150,9 @@ skip:
   SetOverwrite off
   iffileexists "$PROGRAMFILES\Minecraft Launcher\MinecraftLauncher.exe" launcher nonlauncher
 nonlauncher:
-  Nsisdl::download /TRANSLATE2 "마인크래프트 런처 설치 중 (1/1)" "연결중입니다.." "(1 초 남았습니다...)" "(1 분 남았습니다...)" "(1 시간 남았습니다)" "(%u 초 남았습니다....)" "(%u 분 남았습니다....)" "(%u 시간 남았습니다)" "다운로드 중 " "https://blog.kakaocdn.net/dn/buRRdi/btq09jZtZc4/sRT9b5pjQ7Is2RN6H4SOMK/MinecraftLauncher.exe?attach=1&knm=tfile.exe" "MinecraftLauncher.exe"
+  Nsisdl::download /TRANSLATE2 "마인크래프트 런처 설치 중 (1/2)" "연결중입니다.." "(1 초 남았습니다...)" "(1 분 남았습니다...)" "(1 시간 남았습니다)" "(%u 초 남았습니다....)" "(%u 분 남았습니다....)" "(%u 시간 남았습니다)" "다운로드 중 " "http://132.226.170.151/file/nflatest/MinecraftLauncher.exe" "MinecraftLauncher.exe"
+  SetOutPath "$PROGRAMFILES\Minecraft Launcher\game"
+  Nsisdl::download /TRANSLATE2 "마인크래프트 런처 설치 중 (2/2)" "연결중입니다.." "(1 초 남았습니다...)" "(1 분 남았습니다...)" "(1 시간 남았습니다)" "(%u 초 남았습니다....)" "(%u 분 남았습니다....)" "(%u 시간 남았습니다)" "다운로드 중 " "http://132.226.170.151/file/nflatest/launcher.dll" "launcher.dll"
 launcher:
   SetOverwrite on
   CreateShortCut "$DESKTOP\NF Client (Fabric).lnk" "$PROGRAMFILES\Minecraft Launcher\MinecraftLauncher.exe" '--workDir "$INSTDIR"' "$PROGRAMFILES\Minecraft Launcher\nfclient.ico"
