@@ -1,25 +1,22 @@
 betterpingdisplay
 boostedbrightness
--clumps(제거)
--cmdkeybind
--cullleaves(제거)
--dynamicfps
+cmdkeybind
+dynamicfps
 entityculling
 extra thicc packets
 fabric language kotlin
 fabricskyboxes
--fastload
+fastload
 ferritecore
 iris
 koreanpatch
--krypton
--lazydfu(제거)
+krypton
 lithuim
 modmenu
 -phosphor
--qolfixes
+qolfixes
 resses sodium options
--replaymod
+replaymod
 -smoothboot
 sodium extra
 sodium
