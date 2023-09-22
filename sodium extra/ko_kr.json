@@ -291,5 +291,16 @@
   "sodium-extra.overlay.fps_extended": "(최대 %s / 평균 %s / 최소 %s)",
   "sodium-extra.overlay.light_updates": "조명 업데이트 비활성화됨",
   "sodium-extra.suggestRSO.header": "Reese's Sodium Options 모드를 설치하는것을 권장합니다.",
-  "sodium-extra.suggestRSO.message": "Sodium Extra의 기능의 수가 증가함에 따라 Sodium의 비디오 설정에서 설정이 모두 표시되지 않을 수 있으므로, Sodium Extra와 Reese's Sodium Options 모드 함께 사용하는것을 권장합니다."
+  "sodium-extra.suggestRSO.message": "Sodium Extra의 기능의 수가 증가함에 따라 Sodium의 비디오 설정에서 설정이 모두 표시되지 않을 수 있으므로, Sodium Extra와 Reese's Sodium Options 모드 함께 사용하는것을 권장합니다.",
+  "modmenu.descriptionTranslation.sodium-extra": "Sodium Extra는 OptiFine의 눈에 띄는 옵션 대부분을 Sodium으로 가져오는 것을 목표로 합니다. Sodium에서는 아직 사용할 수 없는 시각적 버그 수정 및 기타 성능 옵션과 같은 일부 기능을 제공합니다.",
+  "modmenu.summaryTranslation.sodium-extra": "Sodium에 있어서는 안 되는 기능입니다.",
+  "options.particles.minecraft.cherry_leaves": "벚꽃잎",
+  "options.particles.minecraft.cherry_leaves.tooltip": "벚꽃잎에서 떨어지는 꽃잎.",
+  "options.particles.minecraft.egg_crack": "달걀 균열",
+  "options.particles.minecraft.egg_crack.tooltip": "Egg crack.",
+  "sodium-extra.option.steady_debug_hud": "Steady Debug Hud",
+  "sodium-extra.option.steady_debug_hud_refresh_interval": "Steady Debug Hud 새로 고침 간격",
+  "sodium-extra.option.steady_debug_hud_refresh_interval.tooltip": "디버그 HUD가 새로 고쳐지는 간격을 틱 단위로 조정합니다.",
+  "sodium-extra.option.steady_debug_hud.tooltip": "활성화되면 디버그 HUD는 Steady Debug Hud 새로 고침 간격에 의해 구성된 특정 양의 틱으로 새로 고쳐집니다.",
+  "sodium-extra.units.ticks": "%s 틱"
 }

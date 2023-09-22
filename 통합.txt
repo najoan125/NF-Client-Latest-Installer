@@ -12,7 +12,7 @@ NF Client를 이용해 주셔서 감사합니다.
 
 5.본 설치기는 언제든지 업데이트가 될 수 있습니다. 
   아래 사이트에서 새로운 버전이 나왔는지 확인해주세요.
-  (이 설치기 버전은 1.2.1 입니다)
+  (이 설치기 버전은 1.2.2 입니다)
   설치기 다운로드 주소: https://www.nfclient.kro.kr/download
   
 6.이 클라이언트는 모든 컴퓨터에서 안정적으로 작동하지 않으며, 몇몇 컴퓨터에서 에러가 발생할 수 있습니다.
@@ -34,37 +34,38 @@ NF Client를 이용해 주셔서 감사합니다.
 1.1.5: Clumps, Command Macros, Fabric api, Fabric Language Kotlin, Fastload, Iris, Mod Menu, Sodium extra, Sodium, ViaFabric, YetAnotherConfigLib, Zoomify 업데이트 및 1.1.4 때 미지원 했던 모드들 추가하고 마인크래프트 런처가 설치되어 있지 않은 경우, 정상적으로 실행 불가능한 문제를 수정(Cull Leaves는 미지원)
 1.2.0: 1.20으로 업데이트(Command Macros, dynamic fps, fastload, krypton, phosphor, Quality of Life Fixes, replaymod, smoothboot 미지원), 불필요한 모드 제거(clumps, Cull Leaves, lazydfu)
 1.2.1: 1.20.1로 업데이트, dynamic fps 지원
+1.2.2: 1.20.2로 업데이트(Command Macros, Fastload, krypton, lithium, phosphor, Quality of Life Fixes, ReplayMod, Smooth Boot, Zoomify, Command Block IDE 미지원)
 ────────────────────────
 
 ─────── 모드 출처 ───────
+Fabric API: https://www.curseforge.com/minecraft/mc-mods/fabric-api
 Better Ping Display: https://www.curseforge.com/minecraft/mc-mods/better-ping-display
 Boosted Brightness: https://www.curseforge.com/minecraft/mc-mods/boosted-brightness
+Command Macros: https://www.curseforge.com/minecraft/mc-mods/command-macros
 Dynamic FPS: https://www.curseforge.com/minecraft/mc-mods/dynamic-fps
-Entity Culling: https://www.curseforge.com/minecraft/mc-mods/entityculling
-Fabric API: https://www.curseforge.com/minecraft/mc-mods/fabric-api
+Extra Thicc Packets: https://www.curseforge.com/minecraft/mc-mods/extra-thicc-packets
 FabricSkyboxes: https://modrinth.com/mod/fabricskyboxes
+Fastload: https://www.curseforge.com/minecraft/mc-mods/fastload
 FerriteCore: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric
+Sodium: https://modrinth.com/mod/sodium
+Sodium Extra: https://modrinth.com/mod/sodium-extra
+Reese's Sodium Options: https://modrinth.com/mod/reeses-sodium-options
 Iris Shaders: https://www.curseforge.com/minecraft/mc-mods/irisshaders
 Korean Chat Patch(자작): https://www.curseforge.com/minecraft/mc-mods/korean-patch-fabric
 Krypton: https://www.curseforge.com/minecraft/mc-mods/krypton
 Lithium: https://www.curseforge.com/minecraft/mc-mods/lithium
 Mod Menu: https://www.curseforge.com/minecraft/mc-mods/modmenu
 Phosphor: https://www.curseforge.com/minecraft/mc-mods/phosphor
-Reese's Sodium Options: https://modrinth.com/mod/reeses-sodium-options
+Quality of Life Fixes: https://www.curseforge.com/minecraft/mc-mods/quality-of-life-qol-fixes
+ReplayMod: https://www.replaymod.com/download/
 Smooth Boot: https://www.curseforge.com/minecraft/mc-mods/smooth-boot
-Sodium Extra: https://modrinth.com/mod/sodium-extra
-Sodium: https://modrinth.com/mod/sodium
+ViaFabric: https://www.curseforge.com/minecraft/mc-mods/viafabric
 Windowed Fullscreen: https://www.curseforge.com/minecraft/mc-mods/windowed-fullscreen
 Zoomify: https://modrinth.com/mod/zoomify
 Fabric Language Kotlin: https://modrinth.com/mod/fabric-language-kotlin
 YetAnotherConfigLib: https://modrinth.com/mod/yacl
-Cull Leaves: https://www.curseforge.com/minecraft/mc-mods/cull-leaves
-Fastload: https://www.curseforge.com/minecraft/mc-mods/fastload
-Quality of Life Fixes: https://www.curseforge.com/minecraft/mc-mods/quality-of-life-qol-fixes
-Extra Thicc Packets: https://www.curseforge.com/minecraft/mc-mods/extra-thicc-packets
-ViaFabric: https://www.curseforge.com/minecraft/mc-mods/viafabric
-Command Macros: https://www.curseforge.com/minecraft/mc-mods/command-macros
-ReplayMod: https://www.replaymod.com/download/
+Command Block IDE: https://www.curseforge.com/minecraft/mc-mods/command-block-ide
+NBT Autocomplete: https://www.curseforge.com/minecraft/mc-mods/nbt-autocomplete
 ────────────────────────
 
 ─────── 나죠안의 커스텀 팩 라이선스 ───────

@@ -1,26 +1,27 @@
 betterpingdisplay
 boostedbrightness
-cmdkeybind
+-cmdkeybind
 dynamicfps
-entityculling
 extra thicc packets
-fabric language kotlin
 fabricskyboxes
-fastload
+-fastload
 ferritecore
+sodium
+sodium extra
+resses sodium options
 iris
 koreanpatch
-krypton
-lithuim
+-krypton
+-lithuim
 modmenu
 -phosphor
-qolfixes
-resses sodium options
-replaymod
+-qolfixes
+-replaymod
 -smoothboot
-sodium extra
-sodium
 viafabric
 windowedFullscreen
-yetAnotherConfigLib
-Zoomify
+-Zoomify
+-fabric language kotlin
+-yetAnotherConfigLib
+-Command Block IDE
+NBT Autocomplete
