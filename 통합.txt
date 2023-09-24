@@ -38,34 +38,32 @@ NF Client를 이용해 주셔서 감사합니다.
 ────────────────────────
 
 ─────── 모드 출처 ───────
-Fabric API: https://www.curseforge.com/minecraft/mc-mods/fabric-api
-Better Ping Display: https://www.curseforge.com/minecraft/mc-mods/better-ping-display
-Boosted Brightness: https://www.curseforge.com/minecraft/mc-mods/boosted-brightness
-Command Macros: https://www.curseforge.com/minecraft/mc-mods/command-macros
-Dynamic FPS: https://www.curseforge.com/minecraft/mc-mods/dynamic-fps
+Fabric API: https://modrinth.com/mod/fabric-api
+Better Ping Display: https://modrinth.com/mod/better-ping-display-fabric
+Boosted Brightness: https://modrinth.com/mod/boosted-brightness
+Command Macros: https://modrinth.com/mod/command-macros
+Dynamic FPS: https://modrinth.com/mod/dynamic-fps
 Extra Thicc Packets: https://www.curseforge.com/minecraft/mc-mods/extra-thicc-packets
 FabricSkyboxes: https://modrinth.com/mod/fabricskyboxes
-Fastload: https://www.curseforge.com/minecraft/mc-mods/fastload
-FerriteCore: https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric
+FerriteCore: https://modrinth.com/mod/ferrite-core
 Sodium: https://modrinth.com/mod/sodium
 Sodium Extra: https://modrinth.com/mod/sodium-extra
 Reese's Sodium Options: https://modrinth.com/mod/reeses-sodium-options
-Iris Shaders: https://www.curseforge.com/minecraft/mc-mods/irisshaders
+Iris Shaders: https://modrinth.com/mod/iris
 Korean Chat Patch(자작): https://www.curseforge.com/minecraft/mc-mods/korean-patch-fabric
-Krypton: https://www.curseforge.com/minecraft/mc-mods/krypton
-Lithium: https://www.curseforge.com/minecraft/mc-mods/lithium
-Mod Menu: https://www.curseforge.com/minecraft/mc-mods/modmenu
-Phosphor: https://www.curseforge.com/minecraft/mc-mods/phosphor
-Quality of Life Fixes: https://www.curseforge.com/minecraft/mc-mods/quality-of-life-qol-fixes
+Krypton: https://modrinth.com/mod/krypton
+Lithium: https://modrinth.com/mod/lithium
+Mod Menu: https://modrinth.com/mod/modmenu?fromcf
+Phosphor: https://modrinth.com/mod/phosphor
+Quality of Life Fixes: https://modrinth.com/mod/quality-of-life-qol-fixes
 ReplayMod: https://www.replaymod.com/download/
-Smooth Boot: https://www.curseforge.com/minecraft/mc-mods/smooth-boot
-ViaFabric: https://www.curseforge.com/minecraft/mc-mods/viafabric
+ViaFabric: https://modrinth.com/mod/viafabric
 Windowed Fullscreen: https://www.curseforge.com/minecraft/mc-mods/windowed-fullscreen
 Zoomify: https://modrinth.com/mod/zoomify
 Fabric Language Kotlin: https://modrinth.com/mod/fabric-language-kotlin
 YetAnotherConfigLib: https://modrinth.com/mod/yacl
-Command Block IDE: https://www.curseforge.com/minecraft/mc-mods/command-block-ide
-NBT Autocomplete: https://www.curseforge.com/minecraft/mc-mods/nbt-autocomplete
+Command Block IDE: https://modrinth.com/mod/command-block-ide
+NBT Autocomplete: https://modrinth.com/mod/nbt-autocomplete
 ────────────────────────
 
 ─────── 나죠안의 커스텀 팩 라이선스 ───────

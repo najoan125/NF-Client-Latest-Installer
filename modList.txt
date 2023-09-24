@@ -4,20 +4,18 @@ boostedbrightness
 dynamicfps
 extra thicc packets
 fabricskyboxes
--fastload
 ferritecore
 sodium
 sodium extra
 resses sodium options
 iris
 koreanpatch
--krypton
--lithuim
+krypton
+lithuim
 modmenu
 -phosphor
 -qolfixes
 -replaymod
--smoothboot
 viafabric
 windowedFullscreen
 -Zoomify
