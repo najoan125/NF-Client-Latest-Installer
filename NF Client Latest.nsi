@@ -2,7 +2,7 @@
 
 ; HM NIS Edit Wizard helper defines
 !define PRODUCT_NAME "NF Client (Fabric) 1.20.2"
-!define PRODUCT_VERSION "202.3"
+!define PRODUCT_VERSION "202.4"
 !define PRODUCT_PUBLISHER "NF Client"
 !define PRODUCT_WEB_SITE "https://www.nfclient.kro.kr"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
@@ -96,7 +96,7 @@ Section "MainSection" SEC01
   delete "start.bat"
   Sleep 5000
   ;fabric check version
-  iffileexists "$APPDATA\.nfclient-latest\versions\fabric-loader-0.14.22-1.20.2\fabric-loader-0.14.22-1.20.2.jar" O X
+  iffileexists "$APPDATA\.nfclient-latest\versions\fabric-loader-0.14.24-1.20.2\fabric-loader-0.14.24-1.20.2.jar" O X
 X:
   RMDir /r "$APPDATA\.nfclient-latest\assets"
   RMDir /r "$APPDATA\.nfclient-latest\libraries"
