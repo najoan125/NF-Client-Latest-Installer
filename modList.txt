@@ -1,6 +1,6 @@
 betterpingdisplay
 boostedbrightness
--cmdkeybind
+cmdkeybind
 dynamicfps
 extra thicc packets
 fabricskyboxes
@@ -13,13 +13,12 @@ koreanpatch
 krypton
 lithuim
 modmenu
--phosphor
--qolfixes
 -replaymod
 viafabric
 windowedFullscreen
--Zoomify
--fabric language kotlin
--yetAnotherConfigLib
--Command Block IDE
+Command Block IDE
 NBT Autocomplete
+
+Zoomify
+fabric language kotlin
+yetAnotherConfigLib

@@ -12,7 +12,7 @@ NF Client를 이용해 주셔서 감사합니다.
 
 5.본 설치기는 언제든지 업데이트가 될 수 있습니다. 
   아래 사이트에서 새로운 버전이 나왔는지 확인해주세요.
-  (이 설치기 버전은 1.2.2 입니다)
+  (이 설치기 버전은 202.3 입니다)
   설치기 다운로드 주소: https://www.nfclient.kro.kr/download
   
 6.이 클라이언트는 모든 컴퓨터에서 안정적으로 작동하지 않으며, 몇몇 컴퓨터에서 에러가 발생할 수 있습니다.
@@ -35,10 +35,12 @@ NF Client를 이용해 주셔서 감사합니다.
 1.2.0: 1.20으로 업데이트(Command Macros, dynamic fps, fastload, krypton, phosphor, Quality of Life Fixes, replaymod, smoothboot 미지원), 불필요한 모드 제거(clumps, Cull Leaves, lazydfu)
 1.2.1: 1.20.1로 업데이트, dynamic fps 지원
 1.2.2: 1.20.2로 업데이트(Command Macros, Fastload, krypton, lithium, phosphor, Quality of Life Fixes, ReplayMod, Smooth Boot, Zoomify, Command Block IDE 미지원)
+202.3: 포만감 표시 모드 추가
 ────────────────────────
 
 ─────── 모드 출처 ───────
 Fabric API: https://modrinth.com/mod/fabric-api
+AppleSkin(포만감 표시 모드): https://www.curseforge.com/minecraft/mc-mods/appleskin
 Better Ping Display: https://modrinth.com/mod/better-ping-display-fabric
 Boosted Brightness: https://modrinth.com/mod/boosted-brightness
 Command Macros: https://modrinth.com/mod/command-macros
@@ -54,16 +56,14 @@ Korean Chat Patch(자작): https://www.curseforge.com/minecraft/mc-mods/korean-pat
 Krypton: https://modrinth.com/mod/krypton
 Lithium: https://modrinth.com/mod/lithium
 Mod Menu: https://modrinth.com/mod/modmenu?fromcf
-Phosphor: https://modrinth.com/mod/phosphor
-Quality of Life Fixes: https://modrinth.com/mod/quality-of-life-qol-fixes
 ReplayMod: https://www.replaymod.com/download/
 ViaFabric: https://modrinth.com/mod/viafabric
 Windowed Fullscreen: https://www.curseforge.com/minecraft/mc-mods/windowed-fullscreen
+Command Block IDE: https://modrinth.com/mod/command-block-ide
+NBT Autocomplete: https://modrinth.com/mod/nbt-autocomplete
 Zoomify: https://modrinth.com/mod/zoomify
 Fabric Language Kotlin: https://modrinth.com/mod/fabric-language-kotlin
 YetAnotherConfigLib: https://modrinth.com/mod/yacl
-Command Block IDE: https://modrinth.com/mod/command-block-ide
-NBT Autocomplete: https://modrinth.com/mod/nbt-autocomplete
 ────────────────────────
 
 ─────── 나죠안의 커스텀 팩 라이선스 ───────
