@@ -4,7 +4,7 @@ DO NOT EDIT
 $#
 {
   "data" : {
-    "UiEvents" : "{\"hasSeenDialog\":{},\"hasDismissed\":{},\"hidePlayerSafetyDisclaimer\":{\"fabric-loader-0.14.24-1.20.2_nf-latest\":true}}",
+    "UiEvents" : "{\"hasSeenDialog\":{},\"hasDismissed\":{},\"hidePlayerSafetyDisclaimer\":{\"fabric-loader-0.15.1-1.20.4_nf-latest\":true}}",
     "UiSettings" : "{\"newsPageFilter\":{\"Dungeons\":true,\"Java\":true,\"Bedrock\":true,\"Mojang\":true,\"Legends\":true},\"dungeonsDLCFilter\":{\"Owned\":true,\"Bundle\":true,\"DLC\":true},\"javaConfigurationFilter\":{\"historical\":false,\"snapshot\":false,\"release\":true,\"modded\":true,\"sortBy\":\"name\"},\"lastVisitedGame\":\"java\",\"animate\":{\"transitions\":false,\"playButton\":false},\"hasClearedUpgradeDialog\":false,\"hasShownCloudyClimb\":false,\"hasShownWinterPromo\":false,\"lastCoreVersion\":\"2.3.646\",\"viewedReleaseNotes\":[],\"stopUpgradeDialog\":false,\"javaPatchNotesFilter\":{\"release\":true,\"snapshot\":false},\"productsPatchNotesFilter\":{},\"accountMismatchAcknowledgeDates\":[]}"
   },
   "formatVersion" : 1

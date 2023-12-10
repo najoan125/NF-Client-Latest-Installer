@@ -1,23 +1,24 @@
+-appleskin
 betterpingdisplay
 boostedbrightness
 cmdkeybind
+Command Block IDE
 dynamicfps
 extra thicc packets
 fabricskyboxes
-ferritecore
-sodium
-sodium extra
-resses sodium options
+-ferritecore
 iris
 koreanpatch
 krypton
-lithuim
+-lithuim
 modmenu
+NBT Autocomplete
+resses sodium options
+sodium extra
+sodium
 -replaymod
 viafabric
 windowedFullscreen
-Command Block IDE
-NBT Autocomplete
 
 Zoomify
 fabric language kotlin
