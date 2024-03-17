@@ -1,4 +1,4 @@
--appleskin
+appleskin
 betterpingdisplay
 boostedbrightness
 cmdkeybind
@@ -6,17 +6,17 @@ Command Block IDE
 dynamicfps
 extra thicc packets
 fabricskyboxes
--ferritecore
+ferritecore
 iris
 koreanpatch
 krypton
--lithuim
+lithuim
 modmenu
 NBT Autocomplete
 resses sodium options
 sodium extra
 sodium
--replaymod
+replaymod
 viafabric
 windowedFullscreen
 
