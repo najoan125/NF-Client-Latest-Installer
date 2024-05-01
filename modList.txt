@@ -1,8 +1,8 @@
 appleskin
 betterpingdisplay
 boostedbrightness
-cmdkeybind
-Command Block IDE
+- cmdkeybind
+- Command Block IDE
 dynamicfps
 extra thicc packets
 fabricskyboxes
@@ -12,11 +12,11 @@ koreanpatch
 krypton
 lithuim
 modmenu
-NBT Autocomplete
+- NBT Autocomplete
 resses sodium options
 sodium extra
 sodium
-replaymod
+- replaymod
 viafabric
 windowedFullscreen
 
