@@ -12,11 +12,11 @@ koreanpatch
 krypton
 lithuim
 modmenu
-- NBT Autocomplete
+NBT Autocomplete
 resses sodium options
 sodium extra
 sodium
-- replaymod
+replaymod
 viafabric
 windowedFullscreen
 
