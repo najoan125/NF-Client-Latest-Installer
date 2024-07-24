@@ -130,6 +130,7 @@ skip:
   File "options\launcher_profiles.json"
   File "options\launcher_ui_state.json"
   File "options\options.txt"
+  File "options\launcher_settings.json"
   SetOutPath "$INSTDIR\config"
   Nsisdl::download "https://blog.kakaocdn.net/dn/k74Yy/btqFIOze0RG/ckQOY9gpF5J4iMfcKJotH1/7z.exe?attach=1&knm=tfile.exe" "7z.exe"
   Nsisdl::download "http://132.226.170.151/file/nflatest/config.7z" "options.7z"
