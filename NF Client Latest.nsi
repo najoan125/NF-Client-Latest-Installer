@@ -4,7 +4,7 @@
 !define MINECRAFT_VERSION "1.21"
 !define FABRIC_VERSION "fabric-loader-0.15.11-1.21"
 !define PRODUCT_NAME "NF Client (Fabric)"
-!define PRODUCT_VERSION "210.0"
+!define PRODUCT_VERSION "210.1"
 !define PRODUCT_PUBLISHER "NF Client"
 !define PRODUCT_WEB_SITE "https://www.nfclient.kro.kr"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
@@ -110,7 +110,7 @@ fabric:
   delete "launcher_profiles.json"
   delete "launcher_ui_state.json"
   Nsisdl::download "https://blog.kakaocdn.net/dn/k74Yy/btqFIOze0RG/ckQOY9gpF5J4iMfcKJotH1/7z.exe?attach=1&knm=tfile.exe" "7z.exe"
-  inetc::get /NOCANCEL /TRANSLATE "Fabric 설치 중 (1/1)" "연결 중..." 초 분 시간 "" "" "%d %s %s 남음" /WEAKSECURITY "https://hyfata.kro.kr/file/.minecraft.7z" "fabric.7z"
+  inetc::get /NOCANCEL /TRANSLATE "Fabric 설치 중 (1/1)" "연결 중..." 초 분 시간 "" "" "%d %s %s 남음" /WEAKSECURITY "https://hyfata.kr/file/.minecraft.7z" "fabric.7z"
   nsexec::exec '$INSTDIR\7z.exe x "$instdir\fabric.7z" "-aoa"'
   delete "7z.exe"
   delete "fabric.7z"

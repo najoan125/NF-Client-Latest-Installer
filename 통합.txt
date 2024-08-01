@@ -40,6 +40,7 @@ NF Client를 이용해 주셔서 감사합니다.
 204.0: 1.20.4로 업데이트(포만감 표시 모드, FerriteCore, Lithium, ReplayMod 미지원)
 206.0: 1.20.6으로 업데이트(Command Macros, Command Block IDE, NBT Autocomplete, ReplayMod 미지원)
 210.0: 1.21로 업데이트
+210.1: 도메인 변경에 따른 업데이트(클라이언트가 정상적으로 실행되지 않는 문제 수정)
 ────────────────────────
 
 ─────── 모드 출처 ───────
