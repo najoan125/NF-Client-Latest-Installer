@@ -4,7 +4,7 @@ DO NOT EDIT
 $#
 {
   "data" : {
-    "UiEvents" : "{\"hidePlayerSafetyDisclaimer\":{\"fabric-loader-0.15.11-1.21_nf-latest\":true}}",
+    "UiEvents" : "{\"hidePlayerSafetyDisclaimer\":{\"fabric-loader-0.15.11-1.21.1_nf-latest\":true}}",
     "UiSettings" : "{\"javaConfigurationFilter\":{\"historical\":false,\"snapshot\":false,\"release\":true,\"modded\":true,\"sortBy\":\"name\"},\"lastVisitedPage\":\"java\",\"animate\":{\"transitions\":false,\"playButton\":false},\"javaPatchNotesFilter\":{\"release\":true,\"snapshot\":false}}"
   },
   "formatVersion" : 1

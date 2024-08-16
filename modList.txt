@@ -2,8 +2,10 @@ appleskin
 betterpingdisplay
 boostedbrightness
 - cmdkeybind
-- Command Block IDE
+Command Block IDE
+Coordinates display
 dynamicfps
+Essential
 extra thicc packets
 fabricskyboxes
 ferritecore
@@ -19,7 +21,9 @@ sodium
 replaymod
 viafabric
 windowedFullscreen
-
 Zoomify
+
+#libraries
+Boxlib
 fabric language kotlin
 yetAnotherConfigLib

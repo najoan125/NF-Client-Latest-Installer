@@ -12,7 +12,7 @@ NF Client를 이용해 주셔서 감사합니다.
 
 5.본 설치기는 언제든지 업데이트가 될 수 있습니다. 
   아래 사이트에서 새로운 버전이 나왔는지 확인해주세요.
-  (이 설치기 버전은 210.0 입니다)
+  (이 설치기 버전은 211.0 입니다)
   설치기 다운로드 주소: https://www.nfclient.kro.kr/download
   
 6.이 클라이언트는 모든 컴퓨터에서 안정적으로 작동하지 않으며, 몇몇 컴퓨터에서 에러가 발생할 수 있습니다.
@@ -41,6 +41,7 @@ NF Client를 이용해 주셔서 감사합니다.
 206.0: 1.20.6으로 업데이트(Command Macros, Command Block IDE, NBT Autocomplete, ReplayMod 미지원)
 210.0: 1.21로 업데이트
 210.1: 도메인 변경에 따른 업데이트(클라이언트가 정상적으로 실행되지 않는 문제 수정)
+211.0: 1.21.1로 업데이트, Boxlib, Coordinates Display, Essential 추가, 마인크래프트 런처 최초 설치 시 오류 수정
 ────────────────────────
 
 ─────── 모드 출처 ───────
@@ -48,9 +49,12 @@ Fabric API: https://modrinth.com/mod/fabric-api
 AppleSkin(포만감 표시 모드): https://www.curseforge.com/minecraft/mc-mods/appleskin
 Better Ping Display: https://modrinth.com/mod/better-ping-display-fabric
 Boosted Brightness: https://modrinth.com/mod/boosted-brightness
+Boxlib: https://modrinth.com/mod/boxlib
 Command Macros: https://modrinth.com/mod/command-macros
 Command Block IDE: https://modrinth.com/mod/command-block-ide
+Coordinates display: https://modrinth.com/mod/coordinates-display
 Dynamic FPS: https://modrinth.com/mod/dynamic-fps
+Essential: https://modrinth.com/mod/essential
 Extra Thicc Packets: https://www.curseforge.com/minecraft/mc-mods/extra-thicc-packets
 FabricSkyboxes: https://modrinth.com/mod/fabricskyboxes
 FerriteCore: https://modrinth.com/mod/ferrite-core
@@ -64,7 +68,7 @@ Reese's Sodium Options: https://modrinth.com/mod/reeses-sodium-options
 Sodium Extra: https://modrinth.com/mod/sodium-extra
 Sodium: https://modrinth.com/mod/sodium
 ReplayMod: https://www.replaymod.com/download/
-ViaFabric: https://modrinth.com/mod/viafabric
+ViaFabricPlus: https://modrinth.com/mod/viafabricplus
 Windowed Fullscreen: https://www.curseforge.com/minecraft/mc-mods/windowed-fullscreen
 Zoomify: https://modrinth.com/mod/zoomify
 Fabric Language Kotlin: https://modrinth.com/mod/fabric-language-kotlin
