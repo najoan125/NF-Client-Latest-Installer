@@ -1,13 +1,13 @@
 appleskin
 betterpingdisplay
-boostedbrightness
+- boostedbrightness
 - cmdkeybind
-Command Block IDE
+- Command Block IDE
 Coordinates display
 dynamicfps
 Essential
 extra thicc packets
-fabricskyboxes
+- fabricskyboxes
 ferritecore
 iris
 koreanpatch
